@@ -43,3 +43,15 @@ print(l + m) # >>> 11
 # print(m + n) # error unsupported operand type
 print(m, n) # >>> 6 john
 
+o = "awesome"
+p = "brutal"
+
+def myFunc():
+  p = "fantastic"
+  global q
+  q = "so wicked"
+  print("Python is", o) # >>> Python is awesome 
+  print("Python is", p) # >>> Python is fantastic
+
+myFunc()
+print("Python is", q)
