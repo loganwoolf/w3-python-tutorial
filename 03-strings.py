@@ -15,3 +15,15 @@ print("free" not in "fredrickton")
 
 if "expensive" not in "wooly-mammoth":
   print("No, expensive is NOT present")
+
+# modify cases 
+b = "Here is a RanDOm sentence"
+print(b.upper())
+print(b.lower())
+print(b.capitalize())
+c = "   This has extra  whitespace   "
+print(c.strip() +'.')
+print(b.replace(' a ', ' one ').capitalize())
+
+# split into list
+print(b.split(' '))
